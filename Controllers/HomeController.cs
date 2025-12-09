@@ -15,7 +15,15 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        try
+        {
+            return View();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "An error occurred in Index action");
+            return RedirectToAction("Error");
+        }
     }
 
     public IActionResult Privacy()
