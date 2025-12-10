@@ -3,6 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 //Test 2
 //Test 3
 // Add services to the container.
+// Test PR 1
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
