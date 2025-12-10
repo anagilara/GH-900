@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Test PR 1
 // Test PR 3
 //Test PR sqaush 1
+//Test PR sqaush 2
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
