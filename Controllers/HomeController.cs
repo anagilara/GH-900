@@ -1,13 +1,12 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using myGHrepo.Models;
-//test 2
-//test 3
 
 namespace myGHrepo.Controllers;
 
 public class HomeController : Controller
 {
+    
     private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger)
@@ -17,7 +16,19 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        try
+        {
+            var model = new ErrorViewModel
+            {
+                Message = "Welcome to the Home Page!"
+            };
+            return View(model);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error occurred in Index action");
+            return RedirectToAction(nameof(Error));
+        }
     }
 
     public IActionResult Privacy()
