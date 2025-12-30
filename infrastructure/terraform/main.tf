@@ -109,7 +109,7 @@ resource "azurerm_application_insights" "main" {
 
 # Storage Account (for application data, images, etc.)
 resource "azurerm_storage_account" "main" {
-  name                     = "${replace(var.project_name, "-", "")}${var.environment}sa"
+  name                     = lower(substr(replace("${var.project_name}${var.environment}sa", "-", ""), 0, 24))
   location                 = azurerm_resource_group.main.location
   resource_group_name      = azurerm_resource_group.main.name
   account_tier             = "Standard"

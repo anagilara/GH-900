@@ -40,10 +40,15 @@ variable "sql_admin_username" {
 }
 
 variable "sql_admin_password" {
-  description = "SQL Server administrator password"
+  description = "SQL Server administrator password (required if SQL Server is enabled)"
   type        = string
   sensitive   = true
   default     = ""
+  
+  validation {
+    condition     = var.sql_admin_password == "" || (length(var.sql_admin_password) >= 8 && can(regex("[A-Z]", var.sql_admin_password)) && can(regex("[a-z]", var.sql_admin_password)) && can(regex("[0-9]", var.sql_admin_password)) && can(regex("[^A-Za-z0-9]", var.sql_admin_password)))
+    error_message = "Password must be at least 8 characters and contain uppercase, lowercase, numeric, and special characters."
+  }
 }
 
 variable "sql_sku_name" {
