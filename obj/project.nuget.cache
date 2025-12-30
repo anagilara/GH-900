@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PduT06UQ5EY=",
+  "dgSpecHash": "DcOd5TpOuBI=",
   "success": true,
-  "projectFilePath": "C:\\Class\\GH-900\\Demos\\myGHrepo\\myGHrepo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/workspaces/GH-900/myGHrepo.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/9.0.11/microsoft.netcore.app.ref.9.0.11.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.11/microsoft.aspnetcore.app.ref.9.0.11.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.11/microsoft.netcore.app.host.linux-x64.9.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
