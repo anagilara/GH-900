@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-//test Rebase 1
+//Test merge 1
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
