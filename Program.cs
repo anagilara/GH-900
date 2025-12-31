@@ -3,6 +3,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 //PR demo1
 //PR demo2
+//PR demo3
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
