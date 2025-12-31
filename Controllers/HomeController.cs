@@ -2,10 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using myGHrepo.Models;
 
-//PR demo1
-//PR demo3
-//PR demo4
-//PR demoRebase1
+
 namespace myGHrepo.Controllers;
 
 public class HomeController : Controller

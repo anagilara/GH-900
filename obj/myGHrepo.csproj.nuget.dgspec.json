@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/GH-900/myGHrepo.csproj": {}
+    "C:\\Class\\GH-900\\Demos\\myghrepo2\\GH-900\\myGHrepo.csproj": {}
   },
   "projects": {
-    "/workspaces/GH-900/myGHrepo.csproj": {
+    "C:\\Class\\GH-900\\Demos\\myghrepo2\\GH-900\\myGHrepo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/GH-900/myGHrepo.csproj",
+        "projectUniqueName": "C:\\Class\\GH-900\\Demos\\myghrepo2\\GH-900\\myGHrepo.csproj",
         "projectName": "myGHrepo",
-        "projectPath": "/workspaces/GH-900/myGHrepo.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/GH-900/obj/",
+        "projectPath": "C:\\Class\\GH-900\\Demos\\myghrepo2\\GH-900\\myGHrepo.csproj",
+        "packagesPath": "C:\\Users\\anagillara\\.nuget\\packages\\",
+        "outputPath": "C:\\Class\\GH-900\\Demos\\myghrepo2\\GH-900\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\anagillara\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -38,7 +43,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -54,20 +59,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[9.0.11, 9.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[9.0.11, 9.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -76,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
