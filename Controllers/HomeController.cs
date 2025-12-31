@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using myGHrepo.Models;
 
 // test rebase 1
+// test rebase 2
 namespace myGHrepo.Controllers;
 
 public class HomeController : Controller
