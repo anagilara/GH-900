@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using myGHrepo.Models;
 
-//test Squash 1
+//test Rebase 1
 namespace myGHrepo.Controllers;
 
 public class HomeController : Controller
