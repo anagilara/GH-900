@@ -1,6 +1,8 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// test rebase 1
+//test Squash 1
+//test Squash 2
+//test Squash 3
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
