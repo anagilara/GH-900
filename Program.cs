@@ -1,6 +1,7 @@
 var builder = WebApplication.CreateBuilder(args);
 //test 1
 //test 3
+//Test 4
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
