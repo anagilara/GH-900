@@ -1,10 +1,4 @@
-@using Microsoft.AspNetCore.Html
-@{
-    ViewData["Title"] = "Home Page v2";
-    // En ASP.NET Core
-    var q = Context.Request.Query["q"].ToString(); // source no confiable
-    IHtmlContent raw = new HtmlString(q);          // creación de HTML sin encoding
-}
+
 <h2>Resultados</h2>
 @raw
 <div class="text-center">
