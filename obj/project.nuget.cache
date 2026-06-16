@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rLAsTG8s5vY=",
+  "dgSpecHash": "uaTM15g2tj4=",
   "success": true,
-  "projectFilePath": "C:\\DemoClass\\GH-900\\ghRepo\\ghRepo.csproj",
+  "projectFilePath": "/workspaces/GH-900/ghRepo.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
