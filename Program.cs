@@ -31,3 +31,4 @@ app.Run();
 //Test merge commit 2
 //Test Squash and merge 1
 //Test Squash and merge 2
+//Test Rebase and merge 1
