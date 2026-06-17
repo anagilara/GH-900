@@ -32,3 +32,4 @@ app.Run();
 //Test Squash and merge 1
 //Test Squash and merge 2
 //Test Rebase and merge 1
+//Test Rebase and merge 2
